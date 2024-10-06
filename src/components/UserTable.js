@@ -9,7 +9,7 @@ const UserTable = ({ users, onEdit, onDelete }) => {
   // Handle the edit button click
   const handleEditClick = (user) => {
     setSelectedUser(user); // Set the selected user
-    setIsEditing(true); // Open the form for editing
+    setIsEditing(true); 
   };
 
   // Close the edit form
@@ -21,7 +21,7 @@ const UserTable = ({ users, onEdit, onDelete }) => {
   // Submit the edited data (this is passed to the UserForm component)
   const handleFormSubmit = (updatedUser) => {
     onEdit(updatedUser); // Call the parent onEdit function to update the user
-    handleFormClose(); // Close the form after submission
+    handleFormClose(); 
   };
 
   return (
