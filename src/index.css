@@ -1,0 +1,40 @@
+.container {
+  padding: 20px;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user-table th, .user-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.user-table tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal {
+  background-color: #fff;
+  margin: 50px auto;
+  padding: 20px;
+  width: 50%;
+  position: relative;
+}
+
+.modal button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
